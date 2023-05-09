@@ -1,6 +1,9 @@
 import React from 'react'
 import Psbc from '../assets/psbc.jpg'
-import realEstate from '../assets/realestate.jpg'
+import Clone from '../assets/clone.png'
+import Cdms from '../assets/cdms.png'
+import Todo from '../assets/todoapp.png'
+
 
 
 const Work = () => {
@@ -15,14 +18,14 @@ const Work = () => {
         {/*Container*/}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-                {/*Grid Item*/}
+                
                 <div 
-                style= {{ backgroundImage: `url(${Psbc})`}}
+                style= {{ backgroundImage: `url(${Psbc})` }}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/*hover*/}
 
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 '>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                         Completed Project
                         </span>
@@ -36,23 +39,58 @@ const Work = () => {
                 </div>
 
                 <div 
-                style= {{ backgroundImage: `url(${realEstate})`}}
+                style= {{ backgroundImage: `url(${Clone})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/*hover*/}
 
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        Completed Project
+                        <span className='text-2xl font-bold text-blue-900 tracking-wider'>
+                        Deployment in Progress
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            {/*<a href="/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
+                            </a>*/}
 
-                             <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div 
+                style= {{ backgroundImage: `url(${Cdms})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/*hover*/}
+
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-blue-900 tracking-wider'>
+                        Deployment in Progress
+                        </span>
+                        <div className='pt-8 text-center'>
+                            {/*<a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>*/}
+
+                        </div>
+                    </div>
+                </div>
+
+                <div 
+                style= {{ backgroundImage: `url(${Todo})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/*hover*/}
+
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-orange-900 tracking-wider'>
+                        Deployment in Progress
+                        </span>
+                        <div className='pt-8 text-center'>
+                            {/*<a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>*/}
+
                         </div>
                     </div>
                 </div>
