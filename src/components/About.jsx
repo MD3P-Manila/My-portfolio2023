@@ -6,7 +6,7 @@ const About = () => {
         <div className='flex flex-col justify-center items-center w-full h-full'>
              <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600'>About</p>
+                <p className='text-5xl font-bold inline border-b-4 border-pink-600'>About</p>
                 </div>
                 <div>
                   </div>
@@ -16,7 +16,7 @@ const About = () => {
                       <p>Hi. Im Andrew, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                      <p>I am a highly motivated web developer with a strong passion for creating
+                      <p className='text-2xl'>I am a highly motivated web developer with a strong passion for creating
                         outstanding websites and applications that enhance people's lives. I am 
                         dedicated to staying up-to-date with the latest technologies
                         and programming languages and I'm always eager to learn new skills and expand my knowledge base.

@@ -31,7 +31,7 @@ const Work = () => {
                         Completed Project
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://iampsbc.com/">
+                            <a href="https://iampsbc.com/" target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
 
