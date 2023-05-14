@@ -4,18 +4,38 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Work from './components/Work';
+import React, { useState, useEffect } from 'react';
+import { useMediaQuery } from './index.css';
 
-function App() {
+const App = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.matchMedia('(max-width: 320x max-height: 320)').matches);
+  }, []);
+
   return (
     <div>
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
+      {isMobile ? (
+        <div>
+          <Home mobile />
+          <About mobile />
+          <Skills mobile />
+          <Work mobile />
+          <Contact mobile />
+        </div>
+      ) : (
+        <div>
+          <Home />
+          <About />
+          <Skills />
+          <Work />
+          <Contact />
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default App;

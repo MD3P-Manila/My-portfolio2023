@@ -30,3 +30,11 @@
         hsla(242, 74%, 61%, 0.8)
     )!important;
 }
+
+@media (max-width: 320px) {
+    /* CSS for small screens */
+  }
+
+@media (max-height: 320px) {
+    /* CSS for small screens */
+  }
