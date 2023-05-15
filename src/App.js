@@ -11,7 +11,7 @@ const App = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    setIsMobile(window.matchMedia('(max-width: 320x max-height: 320)').matches);
+    setIsMobile(window.matchMedia('(max-width: 320px)').matches && window.matchMedia('(max-height: 320px)').matches);
   }, []);
 
   return (

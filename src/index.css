@@ -31,10 +31,6 @@
     )!important;
 }
 
-@media (max-width: 320px) {
-    /* CSS for small screens */
-  }
-
-@media (max-height: 320px) {
+@media (max-width: 320px) and (max-height: 320px) {
     /* CSS for small screens */
   }
