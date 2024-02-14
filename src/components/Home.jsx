@@ -11,10 +11,14 @@ const Home = () => {
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-pink-600'>Hi my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Ray Andrew Manila</h1>
-            <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a full stack web developer</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px] text-2xl'>I'm a full stack web developer specializes in creating and (occasionally designing) exceptional digital experiences.
-              I have a Bachelor's degree of Science in Information Technology and a graduate from Kodego Web Development Bootcamp.
-              Currently, I'm focused on building responsive full-stack web applications using react and node js.
+            <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>Full stack web developer</h2>
+            <p className='text-[#8892b0] py-4 max-w-[700px] text-2xl'>I'm a full stack web developer with a keen eye for crafting exceptional digital
+                    experiences, backed by two years of experience as an IT Supervisor and a Bachelor's degree 
+                    in Information Technology. Having refined my skills through training at Kodego 
+                    Web Development Bootcamp, I excel in leveraging technologies like React and 
+                    Laravel 10 to build responsive full-stack web applications. Passionate about pushing the 
+                    boundaries of web development and dedicated to delivering top-notch solutions, I am eager 
+                    to tackle new challenges and contribute to innovative projects.
             </p>
 
             <div>
