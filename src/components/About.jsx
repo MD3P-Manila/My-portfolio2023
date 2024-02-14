@@ -16,10 +16,13 @@ const About = () => {
                       <p>Hi. Im Andrew, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                      <p className='text-2xl'>I am a highly motivated web developer with a strong passion for creating
-                        outstanding websites and applications that enhance people's lives. I am 
-                        dedicated to staying up-to-date with the latest technologies
-                        and programming languages and I'm always eager to learn new skills and expand my knowledge base.
+                      <p className='text-2xl'>I'm a full stack web developer with a keen eye for crafting exceptional digital
+                    experiences, backed by two years of experience as an IT Supervisor and a Bachelor's degree 
+                    in Information Technology. Having refined my skills through training at Kodego 
+                    Web Development Bootcamp, I excel in leveraging technologies like React and 
+                    Laravel 10 to build responsive full-stack web applications. Passionate about pushing the 
+                    boundaries of web development and dedicated to delivering top-notch solutions, I am eager 
+                    to tackle new challenges and contribute to innovative projects.
                       </p>
                     </div>
                   </div>
