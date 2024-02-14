@@ -16,9 +16,7 @@ const Home = () => {
                     experiences, backed by two years of experience as an IT Supervisor and a Bachelor's degree 
                     in Information Technology. Having refined my skills through training at Kodego 
                     Web Development Bootcamp, I excel in leveraging technologies like React and 
-                    Laravel 10 to build responsive full-stack web applications. Passionate about pushing the 
-                    boundaries of web development and dedicated to delivering top-notch solutions, I am eager 
-                    to tackle new challenges and contribute to innovative projects.
+                    Laravel 10 to build responsive full-stack web applications.
             </p>
 
             <div>
